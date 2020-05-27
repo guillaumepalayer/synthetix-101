@@ -1,0 +1,53 @@
+//
+// user.scss
+// Use this to write your custom SCSS
+//
+
+.rounded-xl{
+  border-radius: 20px
+}
+.modal-dialog-vertical{
+  max-width: 100%;
+}
+.text-soft-success{
+  color: #5bd3c7
+}
+.bg-purple{
+  background-color: #5641f2
+}
+.text-soft-purple{
+  color: #6f6da0
+}
+.bg-violet{
+  background-color: #1e1a31
+}
+.bg-dark-violet{
+  background-color: #0a0817
+}
+.bg-dark-violet-curved {
+  background-color: transparent!important;
+  background-image: radial-gradient(#0a0817,#0a0814 70%,transparent 70.1%);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 200% 150%;
+}
+.bg-soft-success{
+  background-color: #5bd3c7
+}
+.bg-orange{
+  background-color: #ffcb32
+}
+.btn-white-opacity{
+  width: 88px!important;
+  height: 88px!important;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 1024px) {
+  .w-lg-60{width: 60%};
+  .w-lg-40{width: 40%}
+}
+@media (max-width: 768px) {
+  .modal-dialog-vertical{
+    max-width: 350px;
+  }
+}
